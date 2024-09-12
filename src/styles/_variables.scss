@@ -1,0 +1,10 @@
+// Variables de colores
+$bg-color: rgb(41, 24, 41);
+$turquoise: #40E0D0;
+$text-color: #ffffff; 
+
+// Otros colores de apoyo
+$input-bg: #2C1D2C;
+$input-border: lighten($turquoise, 20%);
+$input-focus: darken($turquoise, 10%);
+$error-color: #ff6b6b;

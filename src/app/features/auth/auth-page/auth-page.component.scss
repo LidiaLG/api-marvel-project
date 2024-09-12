@@ -1,0 +1,15 @@
+@import 'variables';
+
+.auth-page-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+
+    .separator {
+        height: 80%;
+        width: 2px;
+        background-color: $turquoise;
+        margin: 0 2rem;
+    }
+}

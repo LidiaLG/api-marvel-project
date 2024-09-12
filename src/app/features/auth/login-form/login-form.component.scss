@@ -1,0 +1,74 @@
+@import 'variables';
+
+.form-container {
+    background-color: lighten($bg-color, 5%);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px $turquoise;
+    width: 350px;
+    margin-right: 2rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    background-color: lighten($bg-color, 5%);
+  }
+  
+  .input-container {
+    margin-bottom: 1.5rem;
+    background-color: lighten($bg-color, 5%);
+  }
+  
+  label {
+    font-size: 0.9rem;
+    color: $turquoise;
+    margin-bottom: 0.5rem;
+    display: block;
+    background-color: lighten($bg-color, 5%);
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: $input-bg;
+    border: 1px solid $input-border;
+    border-radius: 4px;
+    color: $text-color;
+  
+    &:focus {
+      border-color: $input-focus;
+      outline: none;
+    }
+  }
+  
+  .error-message {
+    color: $error-color;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+  }
+  
+  .btn-container {
+    text-align: center;
+    background-color: lighten($bg-color, 5%);
+  }
+  
+  button[type="submit"] {
+    padding: 0.8rem 1.5rem;
+    background-color: $turquoise;
+    color: $bg-color;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:disabled {
+      background-color: lighten($turquoise, 20%);
+      cursor: not-allowed;
+    }
+  
+    &:hover:not(:disabled) {
+      background-color: darken($turquoise, 10%);
+    }
+  }

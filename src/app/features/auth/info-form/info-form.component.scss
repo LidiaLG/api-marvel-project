@@ -1,0 +1,28 @@
+@import 'variables';
+
+.info-container {
+    padding: 2rem;
+    border-radius: 8px;
+    width: 350px;
+    text-align: left;
+  
+    h3 {
+      color: $turquoise;
+      margin-bottom: 1rem;
+    }
+  
+    p {
+      margin-bottom: 1.5rem;
+      line-height: 1.5;
+    }
+  
+    a {
+      color: $turquoise;
+      text-decoration: none;
+      font-weight: bold;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
