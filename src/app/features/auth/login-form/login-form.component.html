@@ -1,5 +1,5 @@
 <div class="form-container">
-    <form class="form" [formGroup]="authForm">
+    <form class="form" [formGroup]="authForm" (ngSubmit)="onSubmit()">
         <div class="input-container">
             <label for="public_key">Public Key</label>
             <input type="text" id="public_key" formControlName="public_key">
