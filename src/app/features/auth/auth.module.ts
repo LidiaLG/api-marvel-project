@@ -5,6 +5,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AuthPageComponent } from './auth-page/auth-page.component';
 import { LoginFormComponent } from './login-form/login-form.component';
 import { InfoFormComponent } from './info-form/info-form.component';
+import { TranslateModule } from '@ngx-translate/core';
 
 
 
@@ -16,7 +17,8 @@ import { InfoFormComponent } from './info-form/info-form.component';
   ],
   imports: [
     CommonModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    TranslateModule
   ]
 })
 export class AuthModule { }

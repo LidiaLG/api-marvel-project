@@ -1,0 +1,6 @@
+{
+    "login": "Login",
+    "infoTitle": "Find your public key and private key",
+    "infoContext": "Go to the official Marvel API page to get the access keys (you'll need to register). Enter them in the form and you'll be able to view the content.",
+    "clickHere": "-> Click Here"
+}
